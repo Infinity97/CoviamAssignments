@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/textFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/textLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/textDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DOB(mm-dd-yyyy)" />
+
+    <EditText
+        android:id="@+id/textJoiningDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Joining date(mm-dd-yyyy)"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+</LinearLayout>
